@@ -43,6 +43,7 @@
     font-size: 2.5em;
     margin-bottom: 10px;
     color: #fff; /* White text for better readability */
+    text-align: justify; /* Justify the paragraph text */
 }
 
 .hero-right p {
