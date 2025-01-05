@@ -3,19 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Projects </title>
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Your CSS file -->
 </head>
 <body>
+    <!-- Header with navigation buttons -->
     <header>
-        <h1>My Projects</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="blogs.html" class="nav-btn">Blogs</a>
+            <a href="projects.html" class="nav-btn active">Projects</a> <!-- Active page style -->
         </nav>
     </header>
-    <section>
-        <p>Here are some of my projects...</p>
+
+    <!-- Main Content for Projects Page -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <!-- Project Listings -->
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Brief description of Project 1.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Brief description of Project 2.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Brief description of Project 3.</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <p>Contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </footer>
 </body>
 </html>
