@@ -28,8 +28,10 @@ body {
 }
 
 .profile-photo {
-    max-width: 100%; /* Ensure the photo fits well */
-    border-radius: 50%; /* Make the photo circular */
+    width: 200px; /* Set a fixed width for the photo */
+    height: 200px; /* Set the height to match the width for a circular effect */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circular shape */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
