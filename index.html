@@ -3,75 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Personal Website </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Madan Mohan Gogoi - Home</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="hero">
-    <div class="container hero-content">
-        <div class="hero-left">
-            <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
-        </div>
-        <div class="hero-right">
-            <h1>Madan Mohan Gogoi</h1>
-            <p>
-                I hold a Master’s degree in Computer Science, where I developed a solid understanding of advanced programming and computational concepts.  
-                I worked as a backend developer for 3 months, gaining hands-on experience in creating efficient server-side applications.  
-                While I was also a UPSC aspirant, my passion for technology has steered me toward a career in Data Science.  
-                Currently, I am dedicated to mastering Machine Learning (ML) and Artificial Intelligence (AI), aiming to build impactful solutions in this ever-evolving field.
-            </p>
-            <a href="#portfolio" class="btn">View My Work</a>
-        </div>
-    </div>
-</header>
-
-    <section id="portfolio" class="section">
+    <!-- Header Section -->
+    <header class="header">
         <div class="container">
-            <h2>Portfolio</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Project 1</h3>
-                    <p>Brief description of the project.</p>
-                    <a href="#" target="_blank">View Project</a>
-                </div>
-                <div class="card">
-                    <h3>Project 2</h3>
-                    <p>Brief description of the project.</p>
-                    <a href="#" target="_blank">View Project</a>
-                </div>
-                <div class="card">
-                    <h3>Project 3</h3>
-                    <p>Brief description of the project.</p>
-                    <a href="#" target="_blank">View Project</a>
-                </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-left">
+                <img src="images/your-photo.jpg" alt="Your Photo" class="profile-photo">
+            </div>
+            <div class="hero-right">
+                <h1>Madan Mohan Gogoi</h1>
+                <p>
+                    I hold a Master’s degree in Computer Science, where I developed a solid understanding of advanced programming and computational concepts.  
+                    I worked as a backend developer for 3 months, gaining hands-on experience in creating efficient server-side applications.  
+                    While I was also a UPSC aspirant, my passion for technology has steered me toward a career in Data Science.  
+                    Currently, I am dedicated to mastering Machine Learning (ML) and Artificial Intelligence (AI), aiming to build impactful solutions in this ever-evolving field.
+                </p>
             </div>
         </div>
     </section>
-
-    <section id="timeline" class="section">
-        <div class="container">
-            <h2>Timeline</h2>
-            <ul class="timeline">
-                <li>
-                    <strong>Year:</strong> Achievement or Event Description
-                </li>
-                <li>
-                    <strong>Year:</strong> Achievement or Event Description
-                </li>
-                <li>
-                    <strong>Year:</strong> Achievement or Event Description
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <footer id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
-        </div>
-    </footer>
 </body>
 </html>
